@@ -13,9 +13,9 @@ let coolBG;
 export default function Drawing(props) {
     
   let width = Math.max(
-    document.body.scrollHeight, document.documentElement.scrollWidth,
-    document.body.offsetHeight, document.documentElement.offsetWidth,
-    document.body.clientHeight, document.documentElement.clientWidth
+    document.body.scrollWidth, document.documentElement.scrollWidth,
+    document.body.offsetWidth, document.documentElement.offsetWidth,
+    document.body.clientWidth, document.documentElement.clientWidth
   );
     let height = Math.max(
       document.body.scrollHeight, document.documentElement.scrollHeight,
