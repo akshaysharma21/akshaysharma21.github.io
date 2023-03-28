@@ -27,7 +27,7 @@ return(
             
             <div style={{...Styles.containerContent, ...{marginTop: 200, display:'flex', flexDirection: (mobile || toggleState) ? "column" : "row", alignSelf: 'center', justifyContent: 'center', verticalAlign:'top'}}}>
                 <IconLink handleClick = {() => dispatch({type: "toggle"})} link={"#"} icon={<EmailIcon sx={{ fontSize: (mobile)? 35 : 65, color:"Grey" }}/>} hoverIcon={<EmailIcon sx={{ fontSize: mobile? 35 : 65, color:"White" }}/>}/>
-                <p style={{fontSize:mobile?20:30, marginTop:mobile? -5: -20}}>Sharmaa2@myumanitoba.ca</p>
+                <p style={{fontSize:mobile?20:30, marginTop:mobile? -5: -20}}>aakshayvashishth@gmail.com</p>
             </div>
 
         </div>
