@@ -37,7 +37,7 @@ return(
             
             <div>
                 <h1 style={{...Styles.containerContent, ...obj, ...{fontSize:(mobile) ? '220%':'500%', border:"none", borderColor:"blue", marginBottom:0}}}>Akshay Sharma</h1><br/>
-                <p style={{...Styles.containerContent, ...obj, ...{fontSize: (mobile) ? '90%':'180%',border: "none", marginTop:0, borderColor:"blue"}}}>Aspiring Software Engineer</p>
+                <p style={{...Styles.containerContent, ...obj, ...{fontSize: (mobile) ? '90%':'180%',border: "none", marginTop:0, borderColor:"blue"}}}>Full-Stack Software Engineer</p>
                 <p style={{...Styles.containerContent, ...obj, ...{fontSize: (mobile) ? '55%':'110%',border: "none", marginTop:(mobile) ? 0:-20, borderColor:"blue"}}}>Distributed Computing {(mobile)? <br/> : "|"} Machine Learning {(mobile)? <br/> : "|"} Computer Graphics</p><br/>
                 <p style={{...Styles.containerContent, ...obj, ...{fontSize: (mobile) ? '45%':'80%',border: "none", marginTop:0, borderColor:"blue"}}}>All graphical effects on this website are made from scratch.<br/> Click anywhere outside the tilting card to draw a hilbert curve!</p><br/><br/>
             </div>
